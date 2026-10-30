@@ -1,3 +1,25 @@
-body {
-    background-color: gray
+:root {
+    --red: #ff3034;
+    --coral: #ff6b70;
+    --dark: #35292a;
+    --white: #f8f4f2;
+    --gold: #c5a253;
+    --panel: #dedddd;
+    --line: #65595a;
 }
+
+* {box-sizing: border-box; }
+html {scroll-behavior: smooth; scroll-padding-top: 10px;}
+body {margin: 0; background: var(--dark); color: var(--white); font-family: Georgia, 'Times New Roman', serif;}
+
+/*Header*/
+.site-header {
+    padding: 10px 12px
+    background: var(--red);
+    border-radius: 0 0 35% 35% / 0 0 30px 30px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.nav-pills {display: flex; justify-content: center; gap; 6px; flex-wrap; wrap;}
