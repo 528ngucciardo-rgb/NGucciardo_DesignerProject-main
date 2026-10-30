@@ -1,1 +1,0 @@
-# NGucciardo_DesignerProject
